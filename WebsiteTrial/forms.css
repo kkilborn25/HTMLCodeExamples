@@ -1,0 +1,70 @@
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Final Project
+   
+   Author: Katie Kilborn
+   Date: 7/18/2024
+
+   Filename: forms.css
+
+*/
+html {
+	background-color: rgb(159, 204, 212, .5);
+}
+h1, h3 {
+	text-align: center;
+	font-weight: bold;
+}
+input:focus:not([type='radio']) {
+	background-color: rgb(255,218,165);
+}
+input:focus:not([type='radio']) {
+	background: rgb(215,255,215);
+}
+input:focus:invalid:not([type='radio']) {
+	background: rgb(255,245,215);
+}
+
+label.cardLabel {
+   display: inline-block;
+   float: none;
+   width: auto;
+}
+label.cardLabel img {
+	width: 130px;
+}
+
+label {
+   display: block;
+   float: left;
+   clear: left;
+   font-size: 0.9em;
+   margin-bottom: 10px;
+   margin-right: 10px;
+   width: 180px;
+   text-align: right;
+}
+form#client input, form#client select, form#client textarea {
+   display: block;
+   float: left;
+}
+form#client textarea {
+	width: 200px;
+	height: 50px
+}
+div#buttons {
+	text-align: center;
+	width: 100%;
+	padding-left: 100px;
+}
+input[type='submit'], input[type='reset'] {
+	font-size: 1.2em;
+	padding: 5px;
+	margin: 15px;
+	color: purple;
+	background-color: rgb(127, 186, 182, 0.6);
+	font-weight: bold;
+}
+form#client {
+	background-color: rgb(159, 204, 212, .2);
+}

@@ -1,0 +1,33 @@
+@charset "utf-8";
+/*
+New Perspectives on HTML5 and CSS3, 7th Edition
+    Final Project
+    
+    Presidential Campaign Candidate 
+    Author: Katie Kilborn
+    Date:   7/9/2024
+
+    Filename: layout.css
+*/
+body > header > nav ul li {
+	display: inline;
+	padding: 85px;
+}
+header nav ul li a:hover {
+   color: gray;
+}
+h1 {
+	text-align: center;
+	color: purple;
+	background-color: rgb(127, 186, 182, 0.6);
+}
+article {
+	background-color: rgb(127, 186, 182, 0.2);
+	border-top: 10px solid rgb(127, 186, 182, 0.6);
+	border-bottom: 10px solid rgb(127, 186, 182, 0.6);
+	text-align: center;
+}
+footer {
+	text-align: center;
+	background-color: rgb(127, 186, 182, 0.6);
+}
